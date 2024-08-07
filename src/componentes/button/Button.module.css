@@ -1,0 +1,19 @@
+.button {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: flex; /* Adiciona flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Garante que o texto esteja centrado */
+  height: 40px; /* Ajusta a altura conforme necessário */
+}
+
+.button:hover {
+  background-color: #c4f82a;
+  color: #000;
+}

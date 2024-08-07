@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 100%;
+    background:#1f1f1f;
+    border-radius: 12px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .card {
+      width: 384px;
+      padding: 40px;
+    }
+  }
+
+.card h2 {
+    color: white;
+    text-align:center;
+    margin: 0;
+  }
+  
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+.avatar img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.address {
+    color: var(--green);
+  }
+  
+.bio {
+    color: white;
+  }
+  
+.buttonsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
